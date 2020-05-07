@@ -1,0 +1,412 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: #FFFFFF;
+}
+.header::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.logo-area {
+    float: left;
+    width: 16%;
+    text-align: center;
+    margin-top: 15px;
+}
+.heading-menu-area {
+    width: 59%;
+    float: left;
+    text-align: center;
+}
+.heading-menu-area ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px 15px 15px 15px;
+    
+}
+.heading-menu-area ul li a {
+    text-decoration: none;
+    color: #4D4D4D;
+    font-weight: 600;
+    
+}
+.heading-contact-area {
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+.heading-contact-area ul li a {
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    text-decoration: none;
+}
+.heading-contact-area ul li {
+    color: #fff;
+    list-style-type: none;
+    float: left; 
+    
+}
+.heading-contact-area ul li:last-child {
+    
+    
+}
+.heading-contact-area ul li:first-child {
+    background: #fff;
+    margin-right: 10px;
+    
+}
+/* End Header Area */
+
+.slider-area {
+    background-image: url(../assets/slider-image.jpg);
+    padding: 170px 0;
+}
+.slider-area .span {
+    width: 40%;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    float:left;
+    text-align: left;
+    padding: 0 30px;
+}
+.enjoy h2{
+    width: 40%;
+    font-size: 33px;
+    line-height: 50px;
+    color: #ccc;
+    padding: 30px;
+    text-align: left;
+}
+.batton span {
+    width: 10%;
+    border: 2px solid #fff;
+    float: left;
+    padding: 5px;
+    color: #ffff;
+    margin: 0 30px;
+}
+/* End Slider area */
+.story-area {
+    overflow: hidden;
+    padding: 75px 0;
+}
+.story-area .read p {
+    width: 45%;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1919;
+    text-align: left;
+}
+.we-have h3 {
+    width: 45%;
+    font-size: 25px;
+    text-align: left;
+    line-height: 40px;
+}
+.air-cool p {
+    width: 45%;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #666;
+}
+.rahmot-img {
+    width: 100%;
+    float: right;
+}
+.rahmot-img img {
+    width: 40%;
+    float: right;
+    margin-top: -350px;
+    margin-right: 70px;
+}
+/* End Story Area */
+
+.meet-our-chefs {
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+.they-are h2 {
+    
+    text-align: center;
+    color: #777;
+    margin-bottom: 20px;
+}
+.they-are p {
+    font-size: 12px;
+    text-align: center;
+}
+.image1 img {
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 8px  8px  5px #999;
+}
+.rahmotn {
+    margin: 15px 0; 
+    overflow: hidden;
+    font-size: 23px;
+}
+.kitchen {
+    margin: 0;
+    font-size: 10px;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+.image1 {
+    width: 300px;
+    text-align: center;
+    float: right;
+    width: 33%;
+    padding: px;
+}
+.image2 img {
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 8px  8px  5px #999 ;
+}
+.rahmotn {
+    margin: 15px 0; 
+    overflow: hidden;
+    font-size: 23px;
+}
+.kitchen {
+    margin: 0;
+    font-size: 10px;
+    font-weight: 600;
+}
+.image2 {
+    width: 300px;
+    text-align: center;
+    float: right;
+    width: 33%;
+    padding:px;
+    
+}
+.image3 img {
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 8px  8px  5px #999 ;
+}
+.rahmotn {
+    margin: 15px 0; 
+    overflow: hidden;
+    font-size: 23px;
+}
+.kitchen {
+    margin: 0;
+    font-size: 10px;
+    font-weight: 600;
+}
+.image3 {
+    width: 300px;
+    text-align: center;
+    width: 33%;
+    padding: px;
+    float: left;
+}
+/* End Chefs Area */
+
+.menu-area  {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 50px;
+    background: #f2f2f2;
+}
+.container {
+    text-align: center;
+}
+.luccha h3 {
+    font-size: 25px;
+    color: #77777;
+    margin-bottom: 20px;
+}
+.lofar p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.image-galary img {
+    width: 33%;
+    margin: auto;
+    float: left;
+    display: inline;
+    
+}
+.niaz img {
+    width: 33%;
+    float: left;
+    display: inline-block;
+}
+.rafi img {
+    width: 33%;
+    float: left;
+    display: inline;
+}
+/* End Menu Area */
+
+.aabbccdd {
+    width: 100%;
+    background-image: url(../assets/love.jpeg);
+    text-align: center;
+    padding: 50px 0;
+}
+.fuck h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.call {
+    width: 50%;
+    font-size: 15px;
+    margin-bottom: 90px;
+    margin-left: 305px;
+    color: #ccc;
+}
+.name {
+    margin-bottom: 60px;
+    color: #fff;
+}
+/*end abir area */
+
+.contact-area {
+    width: 100%;
+    padding: 60px 0;
+}
+.map {
+    width: 48%;
+    float: left;
+    margin-bottom: 88px
+}
+.input-area {
+    width: 48%;
+    float: right;
+    box-sizing: boder-box;
+    margin-left 20px;
+    margin-bottom: 100px
+}
+.contact-area h3 {
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-top: 0;
+    font-size: 25px;
+}
+.form {
+    float: left;
+    text-align: left;
+    overflow: hidden;
+}
+.name-area input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 4px;
+    margin-top: 4px;
+}
+.name-area label {
+    color: red;
+    font-size: 16px;
+    font-family: times;
+}
+.email-area input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 4px;
+    margin-top: 4px;
+}
+.email-area label {
+    color: red;
+    font-size: 16px;
+    font-family: times;
+}
+.sub-area input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 4px;
+    margin-top: 4px;
+}
+.sub-area label {
+    color: red;
+    font-size: 16px;
+    font-family: times;
+}
+.text-area textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 4px;
+}
+.text-area label {
+    color: red;
+    font-size: 16px;
+    font-family: times;
+}
+.submit-area input {
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+    color: #fff;
+    background: red;
+    border-radius: 5px;
+    font-family: tahoma;
+}
+/* End Contact Area */
+
+.footer-area {
+    width: 100%;
+    padding-bottom: 40px;
+}
+.footer-area ul {
+    margin: 11px;
+}
+.find-us ul {
+    width: 20%;
+    float: left;
+    text-align: left;
+}
+.find-us ul h5 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: tahoma;
+    font-weight: 600;
+}
+.reservation ul {
+    width: 20%;
+    float: left;
+}
+.open-hours ul {
+    width: 20%;
+    float: left;
+    background-image: url(../assets/power-girl.png);
+    border-radius: 20px;
+}
+.social-area ul {
+    width: 20%;
+    float: left;
+}
+.footer-area ul li {
+    list-style-type: none;
+    font-size: 12px;
+    color: #777;
+    font-family: 'Work Sans', sans-serif;;
+}
